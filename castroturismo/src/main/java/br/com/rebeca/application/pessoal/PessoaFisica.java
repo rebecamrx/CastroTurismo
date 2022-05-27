@@ -3,9 +3,9 @@ package br.com.rebeca.application.pessoal;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
+/** 
  * htpps://www.github.com/rebecamrx/CastroTurismo.git
- * Classe que recebe os dados do Pais
+ * Classe que recebe os dados da Pessoa Fisica
  * @author rebeca.0902
  * @version 1.0.0
  * @since 1.0.0

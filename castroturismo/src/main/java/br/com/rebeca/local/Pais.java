@@ -1,7 +1,14 @@
 package br.com.rebeca.local;
 
-public class Pais {
+import java.io.Serializable;
+
+public class Pais implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private Integer id;
 	
 	private String nome;
@@ -9,7 +16,7 @@ public class Pais {
 	private Pais pais;
 
 	/**
-	 * 
+	 * Metodo Construtor
 	 */
 	public Pais() {
 		super();

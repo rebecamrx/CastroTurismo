@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * htpps://www.github.com/rebecamrx/CastroTurismo.git
- * Classe que recebe os dados do Pais
+ * 
  * @author rebeca.0902
  * @version 1.0.0
  * @since 1.0.0
