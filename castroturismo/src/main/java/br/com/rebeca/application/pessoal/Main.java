@@ -4,6 +4,8 @@ import java.util.Date;
 import br.com.rebeca.local.Cidade;
 import br.com.rebeca.local.Estado;
 import br.com.rebeca.local.Pais;
+import br.com.rebeca.veiculo.Onibus;
+import br.com.rebeca.veiculo.Seguradora;
 
 /** 
  * @author rebeca.0902
@@ -220,6 +222,68 @@ public class Main {
 	    rodItp.setCidade(itp);
 	    
 	    System.out.println(rodItp);
+	    
+	    Seguradora seguradora = new Seguradora();
+	    
+	    seguradora.setId(1);
+	    
+	    seguradora.setNome("Bradesco");
+	    
+	    seguradora.setCorretor("Ze do seguro");
+	    
+	    seguradora.setTelefone("42 99999");
+	    
+	    //SeguradoraBuilder b = null;
+	    
+//	    b.id(1).nome("Bradesco").corretor("Ze das Coves")
+//	    .telefone(42999");
+	    
+	    Onibus onibus = new Onibus();
+	    
+	    onibus.setId(1);
+	    
+	    onibus.setPlaca("ABC1233");
+	    
+	    onibus.setRenavam(12345678);
+	    
+	    onibus.setEstaSegurado(true);
+	    
+	    onibus.setQuilometragem(1200.25);
+	    
+	    onibus.setApolice("12345678");
+	    
+	    onibus.setNumeroEixos(3);
+	    
+	    onibus.setCombustivel(CombustivelEnum.DIESEL_S500);
+	    
+	    onibus.setPolrona(30);
+	    
+	    onibus.setSeguradora(seguradora);
+	    
+	    
+	    Rota rota = new Rota();
+	    
+	    rota.setId(1);
+	    
+	    
+	    rota.setDestino(rodItp);
+	    
+	    
+	    rota.setOrigem(rodCastro);
+	    
+	    
+	    rota.setOnibus(onibus);
+	    
+	    
+	    rota.setQuilometragem(540.0);
+	    
+	    
+	    rota.setPrecoPassagem(540.0 * 4.80);
+	    
+	    
+	    rota.setMotorista(motorista);
+	    
+	   
 
 }
 }
